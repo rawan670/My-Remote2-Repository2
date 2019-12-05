@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".StudentActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information about Student "
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        ></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#8F8A8A"
+        ></View>
+    <TextView
+        android:id="@+id/res_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+        android:id="@+id/res_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id : "
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+        android:id="@+id/res_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level : "
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+        android:id="@+id/res_avg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avg : "
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        ></TextView>
+
+</LinearLayout>
